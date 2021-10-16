@@ -1,0 +1,112 @@
+.login{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.loginLogo{
+    width: 100px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding:30px ;
+    box-shadow: 0px 0px 8px 0.2px;
+}
+
+.loginButton{
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    border-style: none;
+    width: 40%;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.loginButton:hover{
+    /* background-color: lightblue;
+    color: white; */
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+
+.sigupButton{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid blue;
+    width: 40%;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sigupButton:hover{
+    background-color: blue;
+    color: white;
+}
+
+.loginContainer p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+
+
+}
+
+.loginContainer h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.loginContainer input{
+    width: 90%;
+    margin-bottom: 30px;
+    height: 50px; 
+    padding-left: 25px;
+    margin-top: 30px;
+
+
+}
+
+.Icon{
+    margin-top: 40px;
+    position:absolute;
+    padding: 5px;
+    
+}
+
+.loginLogo{
+    margin-right: 70px;
+    height: 150px;
+    display: flex;
+    /* margin-top: 10px; */
+}
+
+.alertMsg{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500px;
+    border-bottom: 2px solid blue;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,82 @@
+.header{
+    /* background-color: #131921; */
+    display: flex;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 0px 7px 0.3px;
+}
+
+.Logo{
+    width: 100px;
+    margin: 0 20px;
+    /* margin-top: 10px; */
+    object-fit: contain;
+}
+
+.headerSearch{
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.searchInput{
+    height: 10px;
+    padding: 20px;
+    border: none;
+    background-color: #d9d9d9;
+    margin-left: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.searchIcon{
+    position:absolute;
+    display: flex;
+    padding: 10px;
+    height: 22px;
+}
+
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+
+.headerLink{
+    color: black;
+    text-decoration: none;
+}
+
+.msg{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500px;
+    border-bottom: 2px solid blue;
+}
+
+
+.auth{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.signButton{
+    text-decoration: none;
+    text-transform: none;
+}
+
+.headerCart{
+    display: flex;
+    align-items: center;
+}
+
+.cartCount{
+    margin-left: 5px;
+    margin-right: 10px;
+}

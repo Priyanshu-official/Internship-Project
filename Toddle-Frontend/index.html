@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Toddle-Front-End</title>
+</head>
+<body>
+    <!-- Main section -->
+    <div class="container">
+        <div class="wrapper">
+            <h1>MATHEMATICS</h1>
+            <div class="content-wrap">
+                <div class="row">
+                    <!-- Header -->
+                    <div class="column" style="width:15%">
+                        <h3>Action</h3>
+                        <p>Move, Indent, Outdent, Delete</p>
+                    </div>
+                    <div class="column" style="width:15%;">
+                        <div style="width:50px; height: 55px;"></div>
+                    </div>
+                    <div class="column" style="width: 70%;">
+                        <h2>Standard</h2>
+                        <p>The text of the Standard</p>
+                    </div>
+                </div>
+            </div>
+             <!-- End Header -->
+            <div class="box-modal">    
+                <!-- Column content -->
+                <div class="content-wrap">
+                    <div class="row">
+                        <div class="column" style="width:15%">
+                            <div class="img-container">
+                                <img class="svg" src="./assets/img/arrows-alt-solid.svg" alt="move" title="move" style="width:20px;">
+                                <img class="svg" src="./assets/img/arrow-left-solid.svg" alt="left-arrow" title="Outdent" style="width:20px;">
+                                <img class="svg" src="./assets/img/arrow-right-solid.svg" alt="right-arrow" title="Indent" style="width:20px;">
+                                <img class="svg" src="./assets/img/trash-solid.svg" alt="trash" title="Delete" style="width:25px;">
+                            </div>
+                        </div>
+                        <div class="column" style="width:15%; text-indent: 50px;">
+                            <div id="column-box-0" class="column-box"></div>
+                        </div>
+                        <div class="column" style="width: 50%;">
+                            <form class="form-container" action="">
+                                <input id="input-text-0" type="text" placeholder="Type Standard here(Static Block)">
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+                <button class="add-standard"><img src="https://img.icons8.com/ios/30/ffffff/plus--v1.png"/><span class="span">Add a Standard</span></button>
+                <!-- <div class="btn-container">
+                    <button class="save-standard"><span class="span">Save Standard</span></button>
+                    <button class="load-standard"><span class="span">Load Standard</span></button>                        
+                </div> -->
+            </div>
+    </div>
+</body>
+<script src="./assets/js/index.js"></script>
+</html>

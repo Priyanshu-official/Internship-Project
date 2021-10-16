@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+.container{
+    display: block;
+}
+.wrapper{
+    display: block;
+    display:block;
+    margin: 5rem;
+}
+h1{
+    color: #cccccc;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-weight: 600;
+}
+.content-wrap{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-bottom: 1px solid #d3cecef6;
+}
+.column{
+    float: left;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-weight: 600;
+}
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.column p{
+    color: #cccccc;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-weight: 600;
+}
+.column-box{
+    height: 55px;
+    width: 50px;
+    background-color: #e0dedef3;
+}
+
+.img-container{
+    display: flex;
+    padding: .8rem;
+}
+.img-container img{
+    margin-left: 5px;
+}
+.form-container{
+    width: 100%;
+    padding: .8rem 0;
+}
+.form-container input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #00dddd;
+}
+::placeholder{
+    color: #cccccc;
+}
+
+.svg{
+    filter: invert(50%) sepia(8%) saturate(354%) hue-rotate(165deg) brightness(95%) contrast(50%);
+}
+
+.svg:hover{
+    filter: invert(74%) sepia(77%) saturate(3452%) hue-rotate(133deg) brightness(101%) contrast(102%);
+}
+
+button{
+    cursor: pointer;
+    display: inline-flex;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    border: none;
+    margin: 1rem 0;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;    
+}
+.span{
+    margin-left: 5px;
+    margin-top: 3px;
+}   
+
+.btn-container{
+    width: 100%;
+    display: inline-flex;
+}
+.btn-container button{
+    width: 50%;
+    margin-left: 5px;
+}
+.add-standard{
+    background-color: #6666ff;
+}
+.add-standard:hover{
+    background-color: #1a53ff;
+    transition: ease-in-out .5s;
+}
+
+.save-standard{
+    color: #1a53ff;
+    border: 2px solid #1a53ff;
+    background-color: white;
+    transition: ease-in-out .5s;
+}
+
+.save-standard:hover{
+    color: white;
+    border-color: #1a53ff;
+    background-color: #1a53ff;
+}
+
+.load-standard{
+    color: #1a53ff;
+    border: 2px solid #1a53ff;
+    background-color: white;
+}
+.load-standard:hover{
+    color: white;
+    border-color: #1a53ff;
+    background-color: #1a53ff;
+    transition: ease-in-out .3s;
+}
